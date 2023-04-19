@@ -1,0 +1,107 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/chat/index",
+      "style": {
+        "navigationBarTitleText": "对话"
+      }
+    },
+		{
+		  "path": "pages/createImage/index",
+		  "style": {
+		    "navigationBarTitleText": "绘画"
+		  }
+		},
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/user/about/index",
+      "style": {
+        "navigationBarTitleText": "关于"
+      }
+    },
+    {
+      "path": "pages/user/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+  
+    {
+      "path": "pages/param/index",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+		{
+		  "path": "pages/user/vip/index",
+		  "style": {
+		    "navigationBarTitleText": "会员中心",
+		    "navigationStyle": "custom"
+		  }
+		},
+		{
+		  "path": "pages/user/info/index",
+		  "style": {
+		    "navigationBarTitleText": "个人信息"
+		  }
+		},
+		{
+		  "path": "pages/user/info/name/index",
+		  "style": {
+		    "navigationBarTitleText": "修改昵称"
+		  }
+		},
+		{
+		  "path": "pages/user/info/quota/index",
+		  "style": {
+		    "navigationBarTitleText": "提升额度"
+		  }
+		},
+		{
+		  "path": "pages/user/history/index",
+		  "style": {
+		    "navigationBarTitleText": "历史记录"
+		  }
+		}
+		
+		
+		
+	
+  ],
+  "tabBar": {
+		"selectedColor":"#79D5AD",
+		"color": "#999999",
+		"backgroundColor":"#ffffff",
+		"borderStyle": "white",
+		"height":"0px",
+    "list": [
+      {
+        "pagePath": "pages/chat/index"
+      },
+  
+			{
+			  "pagePath": "pages/createImage/index"
+			},
+      {
+        "pagePath": "pages/user/index"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#10a37f",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": false
+  },
+  "uniIdRouter": {}
+}

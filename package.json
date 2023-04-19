@@ -1,0 +1,45 @@
+{
+  "uni-app": {
+    "scripts": {
+      "mp-weixin-dev": {
+        "title": "微信小程序:开发环境",
+        "env": {
+          "UNI_PLATFORM": "mp-weixin",
+          "name": "development"
+        }
+      },
+      "mp-weixin-prod": {
+        "title": "微信小程序:生产环境",
+        "env": {
+          "UNI_PLATFORM": "mp-weixin",
+          "name": "production"
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "sass": "^1.56.2",
+    "sass-loader": "^10.4.1"
+  },
+  "dependencies": {
+    "eventsource-parser": "^1.0.0",
+    "uview-ui": "^2.0.36"
+  },
+  "id": "fhtwl-chatgpt",
+  "name": "fhtwl-chatgpt",
+  "displayName": "人工智能聊天机器人",
+  "version": "1.1.0",
+  "description": "基于大数据模型的人工智能聊天机器人,快来体验吧!",
+  "keywords": [
+    "chatgpt",
+    "即时通讯",
+    "im",
+    "聊天"
+  ],
+  "dcloudext": {
+    "category": [
+      "uni-app前端模板",
+      "前端页面模板"
+    ]
+  }
+}
