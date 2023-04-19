@@ -89,7 +89,7 @@ export default {
 // @import 'style/uview.theme.scss'; 
 @import 'uni.scss';
 @import 'style/common.scss';
-@import 'style/iconfont.css';
+@import 'style/font/iconfont.css';
 page {
   font-size: 28rpx;
 }

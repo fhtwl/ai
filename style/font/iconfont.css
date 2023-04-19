@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3994375 */
-  src: url('//at.alicdn.com/t/c/font_3994375_36iyga63r2c.woff2?t=1680920234657') format('woff2'),
-       url('//at.alicdn.com/t/c/font_3994375_36iyga63r2c.woff?t=1680920234657') format('woff'),
-       url('//at.alicdn.com/t/c/font_3994375_36iyga63r2c.ttf?t=1680920234657') format('truetype');
+  src: url('@/style/font/iconfont.woff2?t=1681888679651') format('woff2'),
+       url('@/style/font/iconfont.woff?t=1681888679651') format('woff'),
+       url('@/style/font/iconfont.ttf?t=1681888679651') format('truetype');
 }
 
 .iconfont {
@@ -24,3 +24,4 @@
 .icon-chat:before {
   content: "\e69d";
 }
+
